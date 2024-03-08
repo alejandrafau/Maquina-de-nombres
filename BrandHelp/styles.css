@@ -1,0 +1,95 @@
+.navbar{
+  background-color:whitesmoke;
+  height:4rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position:sticky;
+  top:0px;
+}
+
+body{
+  background-color: rgb(75,0,200);
+}
+
+
+#cabecera{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(75,0,200) ;
+  border-bottom-color:whitesmoke ;
+}
+
+#cuerpo{
+  padding:4rem;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7em;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+    background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 0, 144));
+    background-clip: text; /* Clip background to the text shape */
+    -webkit-text-fill-color: transparent; /* For Chrome and Safari */
+    text-emphasis: transparent; /* Standard syntax */
+    
+  }
+
+  
+
+  h2{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+  padding:4rem;
+    color: whitesmoke;
+
+  }
+
+  
+#cuadro-de-texto{
+  border-style:solid;
+  border-color: rgb(75,0,200);
+  border-width:0.05em;
+  min-height: 20em;
+  margin-top:  3em ;
+}
+
+
+.form-label{
+  font-family:"Montserrat";
+  font-size: 1em;
+  font-style:normal;
+  font-weight:500;
+  color:rgb(75,0,200);
+}
+
+
+
+.card{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 3.5rem;
+  background-color: azure;
+}
+
+.form-control{
+  border-color:rgb(75,0,200);
+  border-bottom-style:solid;
+  border-left-style:none;
+  border-right-style:none;
+  border-top-style:none;
+  font-family: "Montserrat";
+  font-style:italic;
+  color:rgb(75,0,200);
+}
+
+.button{
+  background-color:rgb(231, 151, 12);
+  font-family:"Montserrat";
+  color:aliceblue;
+}
+
+
+
